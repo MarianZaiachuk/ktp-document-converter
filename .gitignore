@@ -1,0 +1,22 @@
+# Build & executable artifacts
+build/
+dist/
+*.exe
+*.spec
+
+# Python caches & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# IDE & OS files
+.vscode/
+.idea/
+*.log
+~$*.docx
+~$*.xlsx
